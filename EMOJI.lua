@@ -1,1 +1,1 @@
-{"clown":"🤡","lol":"🤣","UK":"🇬🇧","CAM":"📸","AYO":"AYO🤨📸","SUS":"🤨","KEK":"😂","UK":"🇬🇧"}
+{"clown":"🤡","lol":"🤣","LOL":"🤣","UK":"🇬🇧","CAM":"📸","cam":"📸","AYO":"AYO🤨📸","ayo":"AYO🤨📸","SUS":"🤨","sus":"🤨","KEK":"😂","SKULL":"💀","skull":"💀","bruh":"😶","BRUH":"😶","UK":"🇬🇧"}
