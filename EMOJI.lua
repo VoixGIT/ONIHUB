@@ -1,1 +1,1 @@
-{"clown":"🤡","lol":"🤣","LOL":"🤣","UK":"🇬🇧","CAM":"📸","cam":"📸","AYO":"AYO🤨📸","ayo":"AYO🤨📸","SUS":"🤨","sus":"🤨","KEK":"😂","SKULL":"💀","skull":"💀","bruh":"😶","BRUH":"😶","UK":"🇬🇧"}
+{"clown":"🤡","lol":"🤣","LOL":"🤣","pray":"🙏","PRAY":"🙏","smug":"😏","SMUG":"😏","eyes":"👀","EYES":"👀","sweat":"🥵","SWEAT":"🥵","UK":"🇬🇧","CAM":"📸","cam":"📸","AYO":"AYO🤨📸","ayo":"AYO🤨📸","SUS":"🤨","sus":"🤨","KEK":"😂","SKULL":"💀","skull":"💀","bruh":"😶","BRUH":"😶","UK":"🇬🇧"}
