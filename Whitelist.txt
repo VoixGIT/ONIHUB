@@ -1,8 +1,6 @@
-ID = 17834,                 Note = Xen,               VIP = true,   VIP2 = false,
-ID = 152836.67880086,       Note = Xen,               VIP = true,   VIP2 = true,
-ID = 136340662,             Note = Voix,              VIP = true,   VIP2 = false,
-ID = 849825772,             Note = Voix,              VIP = true,   VIP2 = false,
-ID = 2970043326,            Note = Dex,               VIP = true,   VIP2 = false,
-ID = 3808345470,            Note = Dex,               VIP = true,   VIP2 = false,
-
-    
+ID = 40132.729478944,       Note = Xen,               VIP = true, Obf = false,
+ID = 152836.67880086,       Note = Xen,               VIP = true, Obf = true,
+ID = 137436.67523198,       Note = Voix,              VIP = true, Obf = true,
+ID = 849825772,             Note = Voix,              VIP = true, Obf = false,
+ID = 2160065.2719486,       Note = Dex,               VIP = true, Obf = true,
+ID = 3808345470,            Note = Dex,               VIP = true, Obf = false,
