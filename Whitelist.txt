@@ -1,6 +1,8 @@
-ID = 17834,         Name = Xen,               VIP = true, Obf = true
-ID = 157916067,     Name = Xen,               VIP = true, Obf = true
-ID = 136340662,     Name = Voix,              VIP = true, Obf = true
-ID = 849825772,     Name = VoixAlt2,          VIP = true, Obf = true
-ID = 2970043326,    Name = Dex                VIP = true, Obf = true
-ID = 3808345470,    Name = DexvoAlt           VIP = true, Obf = true
+ID = 17834,                 Note = Xen,               VIP = true, Obf = false
+ID = 152836.67880086,       Note = Xen,               VIP = true, Obf = true
+ID = 136340662,             Note = Voix,              VIP = true, Obf = false
+ID = 849825772,             Note = Voix,              VIP = true, Obf = false
+ID = 2970043326,            Note = Dex                VIP = true, Obf = false
+ID = 3808345470,            Note = Dex                VIP = true, Obf = false
+
+
