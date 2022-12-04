@@ -1,3 +1,5 @@
-ID = 157916067, Name = Xen,               VIP = true,
-ID = 136340662, Name = Voix,              VIP = true,
-ID = 849825772, Name = VoixAlt2,          VIP = true,
+ID = 157916067,     Name = Xen,               VIP = true,
+ID = 136340662,     Name = Voix,              VIP = true,
+ID = 849825772,     Name = VoixAlt2,          VIP = true,
+ID = 2970043326,    Name = Dex                VIP = true,
+ID = 3808345470,    Name = DexvoAlt           VIP = true,
