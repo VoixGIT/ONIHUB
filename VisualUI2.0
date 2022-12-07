@@ -10,7 +10,7 @@ local HttpService = game:GetService('HttpService')
 -- // Variables
 getgenv().kms = false
 local Ihatethisui = {}
-local UIName = 'Visual UI Library | .gg/puxxCphTnK'
+local UIName = 'OniHub'
 local Amount = 0
 local ConfigF
 local BreakAllLoops = false
@@ -276,7 +276,7 @@ do
         
         local function Update(Input)
             local Delta = Input.Position - DragStart
-            Frame.Position = UDim2.new(StartPosition.X.Scale, StartPosition.X.Offset + Delta.X, StartPosition.Y.Scale, StartPosition.Y.Offset + Delta.Y)
+            Frame.Position = UDim2.new(StartPosition.X.Scale, StartPosition.X.Offset + Delta.X + 100, StartPosition.Y.Scale, StartPosition.Y.Offset + Delta.Y)
         end
         
         Frame.InputBegan:Connect(function(Input)
@@ -335,14 +335,14 @@ do
             local Text = Text or 'Text'
             local Duration = Duration or 5
 
-            if not CoreGui:FindFirstChild('Visual UI Library | .gg/puxxCphTnK | Notifications') then
+            if not CoreGui:FindFirstChild('OniHub | Notifications') then
                 Utility:Create('ScreenGui', {
-                    Name = 'Visual UI Library | .gg/puxxCphTnK | Notifications',
+                    Name = 'OniHub | Notifications',
                     Parent = CoreGui
                 })
             else
                 Utility:Create('Frame', {
-                    Parent = CoreGui:FindFirstChild('Visual UI Library | .gg/puxxCphTnK | Notifications'),
+                    Parent = CoreGui:FindFirstChild('OniHub | Notifications'),
                     Name = 'Notification'..tostring(Amount + 1),
                     BackgroundColor3 = Theme.BackgroundColor,
                     BorderSizePixel = 0,
@@ -398,7 +398,7 @@ do
                 })
 
                 Amount = Amount + 1
-                local Holder = CoreGui:FindFirstChild('Visual UI Library | .gg/puxxCphTnK | Notifications')['Notification'..tostring(Amount)]
+                local Holder = CoreGui:FindFirstChild('OniHub | Notifications')['Notification'..tostring(Amount)]
                 local TitleObj = Holder['NotificationTitle']
                 local TextObj = Holder['NotificationText']
                 local TextSize = TextService:GetTextSize(Text, 14, Enum.Font.Gotham, Vector2.new(300, math.huge))
@@ -956,7 +956,7 @@ function Library:ToggleUI()
 end
 
 function Library:SetTransparency(Transparency, NotificationBool)
-    local UI = CoreGui:WaitForChild('Visual UI Library | .gg/puxxCphTnK')
+    local UI = CoreGui:WaitForChild('OniHub')
     local Blacklist = {
         'UIPadding',
         'UICorner',
