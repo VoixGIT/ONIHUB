@@ -1,5 +1,6 @@
-ID = 40132.729478944,       Note = Xen,               VIP = true, Obf = false,
+ID = 40132.729478944,       Note = Xen,               VIP = true, Obf = true,
 ID = 152836.67880086,       Note = Xen,               VIP = true, Obf = true,
+ID = 1338984.703783,        Note = Xen,               VIP = true, Obf = true,
 ID = 137436.67523198,       Note = Voix,              VIP = true, Obf = true,
 ID = 849825772,             Note = Voix,              VIP = true, Obf = false,
 ID = 2838593.9000714,       Note = DexMain,           VIP = true, Obf = true,
