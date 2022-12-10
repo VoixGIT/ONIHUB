@@ -1200,6 +1200,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
     
     Utility:EnableDragging(Container.Main)
 
+    --[[
     Utility:Tween(Main, {BackgroundTransparency = 0}, 0.05)
     Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 0)}, 0.05)
     task.wait(0)
@@ -1214,7 +1215,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
     Utility:Tween(Main['IntroImage'], {ImageTransparency = 1}, 0.05)
     task.wait(0)
     Main['IntroText']:Destroy()
-    Main['IntroImage']:Destroy()
+    Main['IntroImage']:Destroy()]]
     
     Utility:Create('Frame', {
         Name = 'PromptHolder',
