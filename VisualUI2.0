@@ -421,9 +421,9 @@ do
                 Utility:Tween(Holder, {BackgroundTransparency = 0.8}, 0.25)
                 Utility:Tween(TitleObj, {TextTransparency = 0.5}, 0.25)
                 Utility:Tween(TextObj, {TextTransparency = 0.5}, 0.25)
-                task.wait(0.5)
+                task.wait(0)
                 Utility:Tween(Holder, {Position = UDim2.new(1, 300, 1, Holder.Position.Y.Offset)}, 0.5)
-                task.wait(0.5)
+                task.wait(0)
                 Holder:Destroy()
                 Amount = Amount - 1
             end
@@ -1202,17 +1202,17 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
 
     Utility:Tween(Main, {BackgroundTransparency = 0}, 0.25)
     Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 0)}, 0.25)
-    task.wait(0.5)
+    task.wait(0)
     Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 375)}, 0.25)
-    task.wait(0.5)
+    task.wait(0)
     Utility:Tween(Main['IntroText'], {TextTransparency = 0}, 0.25)
-    task.wait(0.5)
+    task.wait(0)
     Utility:Tween(Main['IntroImage'], {ImageTransparency = 0}, 0.25)
-    task.wait(3)
+    task.wait(0)
     Utility:Tween(Main['IntroText'], {TextTransparency = 1}, 0.25)
-    task.wait(0.5)
+    task.wait(0)
     Utility:Tween(Main['IntroImage'], {ImageTransparency = 1}, 0.25)
-    task.wait(0.5)
+    task.wait(0)
     Main['IntroText']:Destroy()
     Main['IntroImage']:Destroy()
     
@@ -3308,7 +3308,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                             DropdownSelectedText.Text = tostring(Item)
                             Callback(Item)
                             Config[Name] = Item
-                            task.wait(0.5)
+                            task.wait(0)
                             Opened = false
                             if #NewList <= 5 then
                                 Utility:Tween(Tab, {CanvasSize = Tab.CanvasSize - UDim2.new(0, 0, 0, DropListLayout.AbsoluteContentSize.Y)}, 0.25)
