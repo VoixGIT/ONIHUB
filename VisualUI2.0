@@ -545,13 +545,13 @@ do
             Utility:Tween(PromptTitle, {Size = UDim2.new(0, TitleTextSize.X, 0, TitleTextSize.Y)}, 0.25)
 
             Utility:Tween(PromptHolder, {BackgroundTransparency = 0.1}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(PromptFrame, {BackgroundTransparency = NotificationTransparency}, 0.25)
             Utility:Tween(PromptFrame, {Size = UDim2.new(0, 300, 0, 150)}, 0.25)
             Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 5)}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(ButtonStroke, {Thickness = 1}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(PromptText, {TextTransparency = 0}, 0.25)
             Utility:Tween(PromptTitle, {TextTransparency = 0}, 0.25)
             Utility:Tween(Button, {BackgroundTransparency = 0}, 0.25)
@@ -570,13 +570,13 @@ do
                 Utility:Tween(Button, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptText, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptTitle, {TextTransparency = 1}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(ButtonStroke, {Thickness = 0}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptFrame, {BackgroundTransparency = 1}, 0.25)
                 Utility:Tween(PromptFrame, {Size = UDim2.new(0, 0, 0, 0)}, 0.25)
                 Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 100)}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptHolder, {BackgroundTransparency = 1}, 0.25)
                 task.wait()
                 PromptFrame:Destroy()
@@ -682,13 +682,13 @@ do
             Utility:Tween(PromptTitle, {Size = UDim2.new(0, TitleTextSize.X, 0, TitleTextSize.Y)}, 0.25)
 
             Utility:Tween(PromptHolder, {BackgroundTransparency = 0.1}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(PromptFrame, {BackgroundTransparency = NotificationTransparency0}, 0.25)
             Utility:Tween(PromptFrame, {Size = UDim2.new(0, 300, 0, 150)}, 0.25)
             Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 5)}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(ButtonStroke, {Thickness = 1}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(PromptText, {TextTransparency = 0}, 0.25)
             Utility:Tween(PromptTitle, {TextTransparency = 0}, 0.25)
             Utility:Tween(Button, {BackgroundTransparency = 0}, 0.25)
@@ -708,13 +708,13 @@ do
                 Utility:Tween(Button, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptText, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptTitle, {TextTransparency = 1}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(ButtonStroke, {Thickness = 0}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptFrame, {BackgroundTransparency = 1}, 0.25)
                 Utility:Tween(PromptFrame, {Size = UDim2.new(0, 0, 0, 0)}, 0.25)
                 Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 100)}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptHolder, {BackgroundTransparency = 1}, 0.25)
                 task.wait()
                 PromptFrame:Destroy()
@@ -853,14 +853,14 @@ do
             Utility:Tween(PromptTitle, {Size = UDim2.new(0, TitleTextSize.X, 0, TitleTextSize.Y)}, 0.25)
 
             Utility:Tween(PromptHolder, {BackgroundTransparency = 0.1}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(PromptFrame, {BackgroundTransparency = NotificationTransparency}, 0.25)
             Utility:Tween(PromptFrame, {Size = UDim2.new(0, 300, 0, 150)}, 0.25)
             Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 5)}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(Button1Stroke, {Thickness = 1}, 0.25)
             Utility:Tween(Button2Stroke, {Thickness = 1}, 0.25)
-            task.wait(0.25)
+            task.wait(0)
             Utility:Tween(PromptText, {TextTransparency = 0}, 0.25)
             Utility:Tween(PromptTitle, {TextTransparency = 0}, 0.25)
             Utility:Tween(Button1, {BackgroundTransparency = 0}, 0.25)
@@ -884,14 +884,14 @@ do
                 Utility:Tween(Button2, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptText, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptTitle, {TextTransparency = 1}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(Button1Stroke, {Thickness = 0}, 0.25)
                 Utility:Tween(Button2Stroke, {Thickness = 0}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptFrame, {BackgroundTransparency = 1}, 0.25)
                 Utility:Tween(PromptFrame, {Size = UDim2.new(0, 0, 0, 0)}, 0.25)
                 Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 100)}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptHolder, {BackgroundTransparency = 1}, 0.25)
                 task.wait()
                 PromptFrame:Destroy()
@@ -913,14 +913,14 @@ do
                 Utility:Tween(Button2, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptText, {TextTransparency = 1}, 0.25)
                 Utility:Tween(PromptTitle, {TextTransparency = 1}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(Button1Stroke, {Thickness = 0}, 0.25)
                 Utility:Tween(Button2Stroke, {Thickness = 0}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptFrame, {BackgroundTransparency = 1}, 0.25)
                 Utility:Tween(PromptFrame, {Size = UDim2.new(0, 0, 0, 0)}, 0.25)
                 Utility:Tween(PromptFrameCorner, {CornerRadius = UDim.new(0, 100)}, 0.25)
-                task.wait(0.25)
+                task.wait(0)
                 Utility:Tween(PromptHolder, {BackgroundTransparency = 1}, 0.25)
                 task.wait()
                 PromptFrame:Destroy()
@@ -2157,7 +2157,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                     task.spawn(function()
                         Callback()
                     end)
-                    task.wait(0.25)
+                    task.wait(0)
                     Utility:Tween(ButtonHolder, {BackgroundColor3 = Theme.PrimaryElementColor}, 0.25)
                     Hovering = false
                 end)
@@ -3044,7 +3044,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 end
 
                 DropdownButton.MouseButton1Click:Connect(function()
-                    task.wait(0.25)
+                    task.wait(0)
                     if not Debounce then
                         if Opened then
                             Opened = false
@@ -3163,7 +3163,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                         Utility:Tween(DropdownFiller, {Size = UDim2.new(0, 410, 0, 0)}, 0.25)
                         Utility:Tween(DropList, {Size = UDim2.new(0, 410, 0, 0)}, 0.25)
                         Utility:Tween(DropdownIcon, {Rotation = 270}, 0.25)
-                        task.wait(0.25)
+                        task.wait(0)
                         DropList.Visible = false
                         DropdownFiller.Visible = false
                     end)
@@ -3194,7 +3194,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 ConfigUpdates[Name] = DropdownFunctions
 
                 function DropdownFunctions:UpdateDropdown(NewList)
-                    task.wait(0.25)
+                    task.wait(0)
                     local NewList = NewList or {}
                     if Opened then
                         Opened = false
@@ -3211,7 +3211,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                         DropList.Visible = false
                         DropdownFiller.Visible = false
                     end
-                    task.wait(0.25)
+                    task.wait(0)
                     for _, Item in next, DropList:GetChildren() do
                         if Item:IsA('TextButton') then
                             Item:Destroy()
@@ -3320,7 +3320,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                             Utility:Tween(DropdownFiller, {Size = UDim2.new(0, 410, 0, 0)}, 0.25)
                             Utility:Tween(DropList, {Size = UDim2.new(0, 410, 0, 0)}, 0.25)
                             Utility:Tween(DropdownIcon, {Rotation = 270}, 0.25)
-                            task.wait(0.25)
+                            task.wait(0)
                             DropList.Visible = false
                             DropdownFiller.Visible = false
                         end)
