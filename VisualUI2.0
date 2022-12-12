@@ -1202,9 +1202,9 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
 
     --[[
     Utility:Tween(Main, {BackgroundTransparency = 0}, 0.05)
-    Utility:Tween(Main, {Size = UDim2.new(0, 500, 0, 0)}, 0.05)
+    Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 0)}, 0.05)
     task.wait(0)
-    Utility:Tween(Main, {Size = UDim2.new(0, 200, 0, 375)}, 0.05)
+    Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 375)}, 0.05)
     task.wait(0)
     Utility:Tween(Main['IntroText'], {TextTransparency = 0}, 0.05)
     task.wait(0)
@@ -1224,7 +1224,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
         Position = UDim2.new(0.5, 0, 0.5, 0),
         Parent = Main,
         BorderSizePixel = 0,
-        Size = UDim2.new(0, 600, 0, 375),
+        Size = UDim2.new(0, 200, 0, 175),
         ZIndex = 100,
         Visible = true,
         BackgroundTransparency = 1,
