@@ -1165,7 +1165,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 CornerRadius = UDim.new(0, 5),
                 Name = 'MainCorner'
             }),
-            Utility:Create('TextLabel', {
+            --[[Utility:Create('TextLabel', {
                 Name = 'IntroText',
                 BackgroundColor3 = Theme.BackgroundColor,
                 BackgroundTransparency = 1,
@@ -1193,7 +1193,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 Size = UDim2.new(0, 100, 0, 100),
                 Image = IntroIcon,
                 ScaleType = Enum.ScaleType.Fit
-            })
+            })]]
         }),
     })
 
