@@ -1088,7 +1088,7 @@ function Library:GetConfigs()
     end
 end 
 
-function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePerformance, ConfigFolder, Theme)
+function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePerformance, ConfigFolder, Theme, F1, F2)
     local ImprovePerformance = ImprovePerformance or false
     local HasCustom = false
     local HubName = HubName or 'UI Name'
@@ -1158,7 +1158,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             BackgroundColor3 = Theme.BackgroundColor,
             BorderSizePixel = 0,
             BackgroundTransparency = 1,
-            Position = UDim2.new(.1, 0, .1, 0),
+            Position = UDim2.new(F1, 0, F2, 0),
             Size = UDim2.new(0, 0, 0, 0)
         }, {
             Utility:Create('UICorner', {
