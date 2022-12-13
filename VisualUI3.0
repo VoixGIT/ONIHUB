@@ -1088,7 +1088,7 @@ function Library:GetConfigs()
     end
 end 
 
-function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePerformance, ConfigFolder, Theme, F1, F2)
+function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePerformance, ConfigFolder, F1, F2)
     local ImprovePerformance = ImprovePerformance or false
     local HasCustom = false
     local HubName = HubName or 'UI Name'
@@ -1134,7 +1134,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
     end
     local NewTable = {}
 
-    for Index, Value in next, Theme do
+    for Index, Value in Theme do
         NewTable[Index] = Utility:SplitColor(Value)
     end
 
