@@ -1222,7 +1222,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
         Name = 'PromptHolder',
         Parent = Main,
         AnchorPoint = Vector2.new(0.5, 0.5),
-        Position = UDim2.new(F1, 0, F2, 0),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
         Parent = Main,
         BorderSizePixel = 0,
         Size = UDim2.new(0, 600, 0, 375),
