@@ -1148,7 +1148,6 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
 
     Config['Theme_4z3s4QrUhfqt703FmiAe'] = HttpService:JSONEncode(NewTable)
 
-
     local Container = Utility:Create('ScreenGui', {
         Name = UIName,
         Parent = CoreGui
@@ -1158,14 +1157,14 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             BackgroundColor3 = Theme.BackgroundColor,
             BorderSizePixel = 0,
             BackgroundTransparency = 1,
-            Position = UDim2.new(.5, 0, .5, 0),
+            Position = UDim2.new(0, 595, 0, 150),
             Size = UDim2.new(0, 0, 0, 0)
         }, {
             Utility:Create('UICorner', {
                 CornerRadius = UDim.new(0, 5),
                 Name = 'MainCorner'
             }),
-            --[[Utility:Create('TextLabel', {
+            Utility:Create('TextLabel', {
                 Name = 'IntroText',
                 BackgroundColor3 = Theme.BackgroundColor,
                 BackgroundTransparency = 1,
@@ -1193,7 +1192,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 Size = UDim2.new(0, 100, 0, 100),
                 Image = IntroIcon,
                 ScaleType = Enum.ScaleType.Fit
-            })]]
+            })
         }),
     })
 
@@ -1201,22 +1200,21 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
     
     Utility:EnableDragging(Container.Main)
 
-    --[[
-    Utility:Tween(Main, {BackgroundTransparency = 0}, 0.1)
-    Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 0)}, 0.1)
-    --task.wait(0.5)
-    Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 375)}, 0.1)
-    --task.wait(0.5)
-    Utility:Tween(Main['IntroText'], {TextTransparency = 0}, 0.1)
-    --task.wait(0.5)
-    Utility:Tween(Main['IntroImage'], {ImageTransparency = 0}, 0.1)
-    --task.wait(3)
-    Utility:Tween(Main['IntroText'], {TextTransparency = 1}, 0.1)
-    --task.wait(0.5)
-    Utility:Tween(Main['IntroImage'], {ImageTransparency = 1}, 0.1)
-    --task.wait(0.5)
+    Utility:Tween(Main, {BackgroundTransparency = 0}, 0.25)
+    Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 0)}, 0.25)
+    task.wait(0.5)
+    Utility:Tween(Main, {Size = UDim2.new(0, 600, 0, 375)}, 0.25)
+    task.wait(0.5)
+    Utility:Tween(Main['IntroText'], {TextTransparency = 0}, 0.25)
+    task.wait(0.5)
+    Utility:Tween(Main['IntroImage'], {ImageTransparency = 0}, 0.25)
+    task.wait(3)
+    Utility:Tween(Main['IntroText'], {TextTransparency = 1}, 0.25)
+    task.wait(0.5)
+    Utility:Tween(Main['IntroImage'], {ImageTransparency = 1}, 0.25)
+    task.wait(0.5)
     Main['IntroText']:Destroy()
-    Main['IntroImage']:Destroy()]]
+    Main['IntroImage']:Destroy()
     
     Utility:Create('Frame', {
         Name = 'PromptHolder',
